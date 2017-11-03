@@ -1,0 +1,30 @@
+[
+	
+	{
+		"id": 101,
+		"img": "images/homePageImg/banner1.jpg"
+	}, 
+	{
+		"id": 102,
+		"img": "images/homePageImg/banner2.jpg"
+	},
+	{
+		"id": 103,
+		"img": "images/homePageImg/banner3.jpg"
+	},
+	{
+		"id": 104,
+		"img": "images/homePageImg/banner4.jpg"
+	}, 
+	{
+		"id": 105,
+		"img": "images/homePageImg/banner5.jpg"
+	},
+	{
+		"id": 106,
+		"img": "images/homePageImg/banner6.jpg"
+	}
+	
+]
+
+

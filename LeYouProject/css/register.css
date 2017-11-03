@@ -1,0 +1,136 @@
+#outregister{
+	width:100%;
+	height:100%;
+}
+#register{
+	width:1000px;
+	height:800px;
+	margin: 0 auto;
+}
+#header{
+	width:1000px;
+	height:80px;
+}
+#headerNav a{
+	display: inline-block;
+	padding-left: 700px;
+}
+#header img{
+	padding:10px 0 0 30px ;
+}
+#main{
+	width:1000px;
+	height:440px;
+	position: relative;
+}
+#main01{
+	width:1000px;
+	height:40px;
+	border-bottom: 1px solid #666;
+	text-align: center;
+}
+#main01 span{
+	font-size: 18px;
+	font-weight: 900;
+}
+#main02{
+	width:1000px;
+	height:100px;
+	position: relative;
+}
+#main02 img{
+	position: absolute;
+	top:10px;
+	left:224px;
+}
+#main03{
+	width:800px;
+	height:400px;
+	position: absolute;
+	top:212px;
+	left:224px ;
+}
+#main03 .inputLong{
+	width:258px;
+	height:36px;
+	border: 1px solid #dddddd;
+}
+#main03 .inputShort{
+	width:114px;
+	height:36px;
+	border: 1px solid #dddddd;
+}
+#main03 .tips{
+	display: inline-block;
+	background: #fff7f8;
+	border: 1px solid #f2652f;
+	margin-left: 20px;
+	display: none;
+}
+#main03 button:nth-of-type(1){
+	width:167px;
+	height: 35px;
+}
+#main03 button:nth-of-type(3){
+	width:320px;
+	height: 35px;
+}
+#main03 button:nth-of-type(4){
+	width:200px;
+	height: 35px;
+}
+#main03 button:nth-of-type(5){
+	width:183px;
+	height: 35px;
+}
+#main03 span{
+	display: inline-block;
+	width: 80px;
+	height:35px;
+	text-align: right;
+}
+#main03 input{
+	margin-left: 15px;
+}
+#main03 input:nth-of-type(6){
+	margin-left: 84px;
+}
+#main03 input:nth-of-type(7){
+	width: 258px;
+	height: 38px;
+	background: #f2652f;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+	margin-left: 96px;
+}
+#main03 #verify{
+	width:60px;
+	height:28px;
+	border-radius: 3px;
+	line-height:28px;
+	text-align: center;
+	background: #FF4500;
+	color: #fff;
+	position: absolute;
+	top:66px;
+	left: 327px;
+	cursor: pointer;
+}
+#main03 #yzm{
+	width: 108px;
+	height: 28px;
+	border-radius: 3px;
+	background: #FF4500;
+	color: #fff;
+	margin-left: 20px;
+}
+#v_container{
+	width: 80px;
+	height: 38px;
+	position: absolute;
+	top:61px;
+	left: 230px;
+}
+#footer{
+	padding: 250px 0 0 120px;
+}

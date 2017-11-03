@@ -1,0 +1,26 @@
+[
+	{
+		"id": 101,
+		"img": "images/homePageImg/smallBanner1.jpg",
+		"name":"哥瑞家",
+		"title":"牛仔色偏襟长袖连身衣"
+	}, 
+	{
+		"id": 102,
+		"img": "images/homePageImg/smallBanner2.jpg",
+		"name":"哥瑞家",
+		"title":"男宝宝白色纯棉T恤"
+	},
+	{
+		"id": 103,
+		"img": "images/homePageImg/smallBanner3.jpg",
+		"name":"哥瑞家",
+		"title":"男宝宝混色纯棉圆领针织衫"
+	},
+	{
+		"id": 104,
+		"img": "images/homePageImg/smallBanner4.jpg",
+		"name":"哥瑞家",
+		"title":"女宝宝粉色太空棉造型马甲"
+	}
+]

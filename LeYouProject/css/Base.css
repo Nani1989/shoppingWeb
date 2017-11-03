@@ -1,0 +1,509 @@
+
+/*声明*/
+
+#outstatement{
+	width:100%;
+	height:30px;
+	background: #fff;
+	padding-top: 10px;
+}
+#statement{
+	width:1210px;
+	height:30px;
+	background: #fff4de;
+	margin: 0 auto;
+	position: relative;
+}
+#statement img{
+	position: absolute;
+	top:8px;
+	left:8px;	
+}
+#statement span{
+	padding-left: 34px;
+	line-height:30px;
+	color: #666666;
+}
+
+/*headerNav*/
+
+#outheadernav{
+	width:100% ;
+	height:45px;
+	border-bottom: 1px solid #cccccc;
+}
+#headernav {
+	width:1210px;
+	height:32px;
+	line-height: 32px;
+	margin: 0 auto;
+	padding-top: 13px;
+	position: relative;
+}
+#headernav ul li{
+	float: left;
+}
+#headernav #PhoneStore{
+	margin: 0 285px 0 37px;
+}
+#headernav #PhoneStore img{
+	position: absolute;
+	top:23px;
+	left:219px;
+}
+#headernav #PhoneStore #appImg{
+	width: 183px;
+	height: 0;
+	position: absolute;
+	top:37px;
+	left:200px;
+	z-index: 3;
+}
+#headernav #border{
+	padding: 0 10px 0 12px;
+}
+#headernav ul .ali{
+	padding-right:16px;
+}
+#headernav #servicesArrow{
+    display: inline-block;
+    border-color: #9bbaf9 transparent;
+    border-style: solid dashed;
+    border-width: 4px 4px 0;
+    margin: -2px 5px 0 5px;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    vertical-align: middle
+}
+#headernav #servicesUL{
+	display:none;
+	width:65px;
+	height:72px;
+	background: #ffffff;
+	border: 1px solid #fcfcfc;
+	box-shadow: 0 3px 4px #d6d6d6;
+	position: absolute;
+	top:37px;
+	left:856px;
+	z-index: 4;
+}
+#headernav #servicesUL li{
+	padding-left: 4px;
+	height:24px;
+	line-height: 24px;
+}
+#headernav #store{
+	padding: 0 9px;
+}
+#headernav #servicesXL{
+	width:60px;
+	height:20px;
+	line-height:20px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	background: #f0f0f0;
+	margin-top: 7px;
+}
+#headernav #servicesXL:hover{
+	background: #f8f8f8;
+}
+#headernav #servicesXL span{
+	display: inline-block;
+	width:16px;
+	height:16px;
+	background: url(../images/BaseImg/leyou_sprite_dp.gif) -91px -172px;
+}
+
+/*header*/
+
+#outheader{
+	width: 100%;
+	height:103px;
+}
+#header{
+	width:1210px;
+	height:103px;
+	margin: 0 auto;
+}
+#headerlogo{
+	width: 280px;
+	height:103px;
+	float: left;
+	position: relative;
+}
+#headerlogo a{
+	display: block;
+	width: 192px;
+	height:70px;
+	text-indent: -9999px;
+	background: url(../images/BaseImg/leyou_sprites.png);
+	position: absolute;
+	left:0;
+	top:16px;
+}
+#search{
+	width:481px;
+	height:103px;
+	float: left;
+	position: relative;
+}
+#search input{
+	width:406px;
+	height:32px;
+	color: #000;
+	border: 2px solid #ff6600;
+	border-right: none;
+	border-radius: 3px;
+	position: absolute;
+	left:0;
+	top:28px;
+	padding-left: 7px;
+}
+#search button{
+	width:72px;
+	height:36px;
+	background: #f76300;
+	border: 1px solid #be4c00;
+	border-left:none;
+	border-radius: 3px;
+	position: absolute;
+	left:406px;
+	top:28px;
+}
+#search button a{
+	line-height:30px;
+	text-align: center;
+	font-size: 16px;
+	color:#fff;
+}
+#search p{
+	padding-top: 74px;
+}
+#search p a{
+	padding-left: 10px ;
+}
+#search p a:hover{
+	color: #e4393c;
+}
+#header #headerRt{
+	width:449px;
+	height:103px;
+	float: right;
+}
+#myLeyou{
+	width:108px;
+	height:35px;
+	line-height:35px;
+	background: #f7f7f7;
+	border: 1px solid #efefef;
+	margin-left: 40px;
+	position: relative;
+	float: left;
+	margin-top: 30px;
+}
+#myLeyou #LeyouMan{
+	display: inline-block;
+	width:15px;
+	height:16px;
+	background: url(../images/BaseImg/tip_icon.png) -4px -4px;
+	position: absolute;
+	top:8px;
+	left:9px;
+}
+#myLeyou #wordsLeyou{
+	padding-left: 34px;
+}
+#myLeyou #wordsLeyou:hover a{
+	color:#0099ff;
+}
+#myLeyou #leyouArrow{
+	display: inline-block;
+	width:9px;
+	height:5px;
+	background:url(../images/BaseImg/leyou_sprites1.png) -16px -283px;
+}
+#myLeyou #myLeyouLoad{
+	width:311px;
+	height:174px;
+	background: #fff;
+	border: 1px solid #e3e3e3;
+	border-radius: 3px;
+	position: absolute;
+	top:31px;
+	left:-204px;
+	z-index: 3;
+	display: none;
+}
+#myLeyou #myLeyouLoad #myLeyouLoadTop{
+	width:311px;
+	height:37px;
+	background: url(../images/BaseImg/leyou_sprites1.png) 0px -32px repeat-x;
+	position: relative;
+}
+#myLeyou #myLeyouLoad #myLeyouLoadTop span{
+	display: inline-block;
+	width:5px;
+	height:9px;
+	background: url(../images/BaseImg/leyou_sprites.png) -40px -177px;
+	position: absolute;
+	top:15px;
+	left:291px;
+}
+#myLeyou #myLeyouLoad #myLeyouLoadTop i{
+	padding-left: 223px;
+	color: #cc0000;
+}
+#myLeyou #myLeyouLoad #myLeyouLoadLeft{
+	width:155px;
+	height:136px;
+	float: left;
+}
+#myLeyou #myLeyouLoad #myLeyouLoadLeft ul{
+	width:133px;
+	height:116px;
+	margin: 10px;
+}
+#myLeyouLoadLeft ul li{
+	width:133px;
+	height:28px;
+	border-bottom: 1px dotted #cccccc;
+}
+#myLeyouLoadLeft ul li a{
+	padding-left: 27px;
+}
+#myLeyouLoadLeft ul li:hover{
+	background: #f5f5f5;
+}
+#myLeyouLoadLeft ul li:hover a{
+	color: #cc0000;
+}
+#myLeyou #myLeyouLoad #borderBg{
+	width:1px;
+	height:116px;
+	background: #ccc;
+	float: left;
+	margin-top: 10px;
+}
+#myLeyou #myLeyouLoad #myLeyouLoadRight{
+	width:155px;
+	height:136px;
+	float: right;
+}
+#myLeyou #myLeyouLoad #myLeyouLoadRight ul{
+	width:133px;
+	height:116px;
+	margin: 10px;
+}
+#myLeyouLoadRight ul li{
+	width:133px;
+	height:28px;
+	border-bottom: 1px dotted #cccccc;
+	position: relative;
+}
+#myLeyouLoadRight ul .rightArrow{
+	width:5px;
+	height:9px;
+	background: url(../images/BaseImg/leyou_sprites.png) -189px -331px;
+	position: absolute;
+	top:14px;
+	left:85px;
+}
+#myLeyouLoadRight ul li a{
+	padding-left: 27px;
+}
+#myLeyouLoadRight ul li:hover{
+	background: #f5f5f5;
+}
+#myLeyouLoadRight ul li:hover a{
+	color: #cc0000;
+}
+#myCart{
+	width:108px;
+	height:35px;
+	line-height:35px;
+	background: #f7f7f7;
+	border: 1px solid #efefef;
+	margin-left: 12px;
+	position: relative;
+	float: left;
+	margin-top: 30px;
+}
+#myCart #cartCar{
+	display: inline-block;
+	width:14px;
+	height:10px;
+	background: url(../images/BaseImg/tip_icon.png) -6px -93px;
+	position: absolute;
+	top:13px;
+	left:9px;
+}
+#myCart #wordsCart{
+	padding:0 8px 0 34px;
+}
+#myCart #wordsCart:hover a{
+	color:#0099ff;
+}
+#myCart #cartArrow{
+	display: inline-block;
+	width:9px;
+	height:5px;
+	background:url(../images/BaseImg/leyou_sprites1.png) -16px -283px;
+}
+#inviteFriends{
+	width:164px;
+	height:35px;
+	line-height:35px;
+	background: #f7f7f7;
+	border: 1px solid #efefef;
+	position: relative;
+	float: right;
+	margin-top: 30px;
+}
+#inviteFriends #friends{
+	display: inline-block;
+	width:19px;
+	height:13px;
+	background: url(../images/BaseImg/tip_icon.png) -2px -44px;
+	position: absolute;
+	top:11px;
+	left:9px;
+}
+#inviteFriends #wordsInvite{
+	padding:0 5px 0 34px;
+}
+#inviteFriends #wordsInvite:hover a{
+	color:#0099ff;
+}
+#inviteFriends #fifteen{
+	color: #fc7800;
+	font-size: 16px;
+}
+#inviteFriends #point{
+	display: inline-block;
+	font-size: 56px;
+	color: #c5ddfb;
+	position: absolute;
+	top:25px;
+	left:29px;
+	z-index: 3;
+	display: none;
+}
+#inviteFriends #invite{
+	width:250px;
+	height:187px;
+	background: #fff;
+	border-bottom: 5px solid #c5ddfb;
+	border-top: 5px solid #c5ddfb;
+	border-left: 2px solid #c5ddfb;
+	border-right: 2px solid #c5ddfb;
+	position: absolute;
+	top:48px;
+	left:-96px;
+	z-index: 3;
+	display: none;
+}
+#invite img{
+	margin:5px 0 0 15px;
+}
+#invite input{
+	width:148px;
+	height:24px;
+	border: 1px solid #ccc;
+	margin-left: 24px;
+}
+#invite span{
+	padding-left: 21px;
+}
+#invite span:hover a{
+	color: #0099ff;
+}
+
+/*Nav*/
+
+#outNav{
+	width:100%;
+	height:40px;
+	border-bottom: 3px solid #ff6600;
+	border-top: 1px solid #ccc;
+	box-shadow:   0 5px 3px #D6D6D6 inset;
+}
+#nav{
+	width:1210px;
+	height:40px;
+	line-height:40px;
+	margin: 0 auto;
+	font-size: 16px;
+	position: relative;
+}
+#nav #allGoods{
+	width:210px;
+	height:40px;
+	background: #ff6600;
+	float: left;
+}
+#allGoods span{
+	color: #fff;
+	padding-left: 26px;
+}
+#nav #navDetails{
+	width:380px;
+	height:40px;
+	float: left;
+}
+#navDetails ul{
+	width:380px;
+	height:40px;
+}
+#navDetails ul li{
+	float: left;
+}
+#navDetails ul .Ali{
+	padding: 0 19px;
+}
+#navDetails ul .Ali:hover{
+	background: #ff802c;
+}
+#navDetails ul .Ali:hover a{
+	color: #fff;
+}
+#navDetails ul li:nth-child(1){
+	width:72px;
+	height: 40px;
+	text-align: center;
+	background:#dd5800 ;
+} 
+#navDetails ul li:nth-child(1) a{
+	color: #fff;
+}
+#navDetails .border{
+	display: inline-block;
+	width:2px;
+	height: 15px;
+	background: #ccc;
+}
+#nav #navRight{
+	width:240px;
+	height:40px;
+	float:right;
+	font-size: 12px;
+}
+#nav #navRight a{
+	padding: 0 4px;
+}
+#nav #navRight a:hover{
+	color: #0099ff;
+}
+#nav #navRight a:last-child{
+	color: #ff6600;
+}
+#nav #hot{
+	display: block;
+	width:29px;
+	height: 23px;
+	background: url(../images/BaseImg/hot.gif);
+	position: absolute;
+	top:-16px;
+	left:400px;
+}
+

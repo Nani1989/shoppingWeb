@@ -1,0 +1,1516 @@
+
+/*左侧楼梯*/
+#fixNav {
+	position: fixed;
+	right: 0px;
+	top: 30%;
+	z-index: 4;
+}
+#fixNav ul {
+	border: 1px solid #ccc;
+}
+#fixNav li {
+	width: 60px;
+	height: 50px;
+	background: #9BBAF9;
+	border-bottom: 1px dashed #ccc;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	cursor: pointer;
+	position: relative;
+}
+#fixNav li span.Active {
+	display: block;
+	background: white;
+	color: #f45;
+}
+#fixNav li:hover span {
+	display: block;
+}
+#fixNav li span {
+	display: none;
+	background: #f45;
+	color: white;
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*回到顶部*/
+
+#fixTop{
+	width:19px;
+	height:77px;
+	position: fixed;
+	right: 40px;
+	bottom: 7%;
+}
+
+/*banner*/
+
+#outBanner{
+	width:100%;
+	height:480px;
+}
+#outBanner #banner{
+	width:1210px;
+	height:480px;
+	margin: 0 auto;
+	position: relative;
+}
+#banner #menu{
+	width:210px;
+	height:586px;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-bottom:3px solid #5679be;
+	float: left;
+	position: absolute;
+}
+#menu #menuUL{
+	width:210px;
+	height:570px ;
+	position: absolute;
+	top:16px;
+	left: 0px;
+	z-index: 5;
+}
+#menuUL .menuLI{
+	width:210px;
+	height:114px ;
+}
+ .menuLI:hover{
+	background: #eeeeee;
+}
+ .menuLI:hover a{
+	color: #000;
+}
+#menuUL .menuLI:hover #menuLi1Top span{
+	background: url(../images/homePageImg/leyou_icon.png) 0px -28px;
+}
+#menuUL .menuLI:hover #menuLi1Top i{
+	color: #e25a80;
+}
+#menuUL .menuLI:hover #menuLi1Top b{
+	background: url(../images/homePageImg/leyou_icon.png) -3px -57px;
+}
+#menuUL #menuLi1Top{
+	width:210px;
+	height:33px;
+	line-height:33px;
+	position: relative;
+}
+#menuUL #menuLi1Top span{
+	width:11px;
+	height:18px;
+	background: url(../images/homePageImg/leyou_icon.png);
+	position: absolute;
+	top:11px;
+	left:21px;
+}
+#menuUL #menuLi1Top i{
+	padding-left:42px;
+	font-size: 16px;
+}
+#menuUL #menuLi1Top b{
+	width:5px;
+	height:9px;
+	background: url(../images/homePageImg/leyou_icon.png) -76px -57px;
+	position: absolute;
+	top:12px;
+	left:193px;
+}
+#menuUL .menuLiBottom{
+	width:210px;
+	height:81px;
+}
+#menuUL .menuLiBottom ul{
+	width:190px;
+	height:81px;
+	margin-left: 20px;
+}
+#menuUL .menuLiBottom ul li{
+	float: left;
+}
+#menuUL .menuLiBottom ul li a{
+	line-height: 23px;
+	padding-left: 9px;
+}
+#menuUL .menuLI:hover #menuLi2Top span{
+	background: url(../images/homePageImg/leyou_icon.png) -23px -29px;
+}
+#menuUL .menuLI:hover #menuLi2Top i{
+	color: #f5a21c;
+}
+#menuUL .menuLI:hover #menuLi2Top b{
+	background: url(../images/homePageImg/leyou_icon.png) -27px -57px;
+}
+#menuUL #menuLi2Top{
+	width:210px;
+	height:33px;
+	line-height:33px;
+	position: relative;
+}
+#menuUL #menuLi2Top span{
+	width:15px;
+	height:16px;
+	background: url(../images/homePageImg/leyou_icon.png) -23px -1px;
+	position: absolute;
+	top:11px;
+	left:21px;
+}
+#menuUL  #menuLi2Top i{
+	padding-left:42px;
+	font-size: 16px;
+}
+#menuUL #menuLi2Top b{
+	width:5px;
+	height:9px;
+	background: url(../images/homePageImg/leyou_icon.png) -76px -57px;
+	position: absolute;
+	top:12px;
+	left:193px;
+}
+#menuUL .menuLI:hover #menuLi3Top span{
+	background: url(../images/homePageImg/leyou_icon.png) -47px -29px;
+}
+#menuUL .menuLI:hover #menuLi3Top i{
+	color: #e25a80;
+}
+#menuUL .menuLI:hover #menuLi3Top b{
+	background: url(../images/homePageImg/leyou_icon.png) -3px -57px;
+}
+#menuUL #menuLi3Top{
+	width:210px;
+	height:33px;
+	line-height:33px;
+	position: relative;
+}
+#menuUL #menuLi3Top span{
+	width:16px;
+	height:15px;
+	background: url(../images/homePageImg/leyou_icon.png) -47px -2px;
+	position: absolute;
+	top:11px;
+	left:21px;
+}
+#menuUL  #menuLi3Top i{
+	padding-left:42px;
+	font-size: 16px;
+}
+#menuUL #menuLi3Top b{
+	width:5px;
+	height:9px;
+	background: url(../images/homePageImg/leyou_icon.png) -76px -57px;
+	position: absolute;
+	top:12px;
+	left:193px;
+}
+#menuUL .menuLI:hover #menuLi4Top span{
+	background: url(../images/homePageImg/leyou_icon.png) -75px -28px;
+}
+#menuUL .menuLI:hover #menuLi4Top i{
+	color: #f5a21c;
+}
+#menuUL .menuLI:hover #menuLi4Top b{
+	background: url(../images/homePageImg/leyou_icon.png) -27px -57px;
+}
+#menuUL #menuLi4Top{
+	width:210px;
+	height:33px;
+	line-height:33px;
+	position: relative;
+}
+#menuUL #menuLi4Top span{
+	width:10px;
+	height:16px;
+	background: url(../images/homePageImg/leyou_icon.png) -75px -1px;
+	position: absolute;
+	top:11px;
+	left:21px;
+}
+#menuUL  #menuLi4Top i{
+	padding-left:42px;
+	font-size: 16px;
+}
+#menuUL #menuLi4Top b{
+	width:5px;
+	height:9px;
+	background: url(../images/homePageImg/leyou_icon.png) -76px -57px;
+	position: absolute;
+	top:12px;
+	left:193px;
+}
+#menuLI5:hover #menuLi5Top span{
+	background: url(../images/homePageImg/leyou_icon.png) -97px -30px;
+}
+#menuLI5:hover #menuLi5Top i{
+	color: #48ace2;
+}
+#menuLI5:hover #menuLi5Top b{
+	background: url(../images/homePageImg/leyou_icon.png) -52px -57px;
+}
+ #menuLi5Top{
+	width:210px;
+	height:33px;
+	line-height:33px;
+	position: relative;
+}
+ #menuLi5Top span{
+	width:16px;
+	height:15px;
+	background: url(../images/homePageImg/leyou_icon.png) -97px -3px;
+	position: absolute;
+	top:11px;
+	left:21px;
+}
+ #menuLi5Top i{
+	padding-left:42px;
+	font-size: 16px;
+}
+ #menuLi5Top b{
+	width:5px;
+	height:9px;
+	background: url(../images/homePageImg/leyou_icon.png) -76px -57px;
+	position: absolute;
+	top:12px;
+	left:193px;
+}
+#menuUL .menuLIRight{
+	display: none;
+	width:500px;
+	height:586px;
+	border: 1px solid #ccc;
+	border-bottom:3px solid #5679be;
+	position: absolute;
+	top:0px;
+	left:210px;
+	z-index: 3;
+}
+#menuLI5:hover .menuLIRight{
+	display:block;
+}
+#menuUL .menuLI:hover .menuLIRight{
+	display:block;
+}
+#banner #bannerImg{
+	width: 810px;
+	height:346px;
+	float: left;
+	margin-left: 210px;
+	position: relative;
+	overflow: hidden;
+}
+#bannerImg #list1{
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+#bannerImg #list1 li, #list1 img{
+	width: 810px;
+	height: 346px;
+}
+#bannerImg #list1 li{
+	float: left;
+	cursor: pointer;
+}
+#bannerImg #list2  {
+	width: auto;
+	height: 16px;
+	position: absolute;
+	left: 30px;
+	bottom: 30px;
+}
+#list2 li {
+	width: 16px;
+	height: 16px;
+	background: #737373;
+	margin-left: 6px;
+	float: left;
+	border-radius: 50%;
+	cursor: pointer;
+}
+#list2 li.active {
+	background: #ff6600;
+}
+#banner #bannerAd{
+	width:810px;
+	height:135px;
+	position: absolute;
+	top:346px;
+	left:212px;
+}
+#bannerAd img{
+	cursor: pointer;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+#banner #bannerRight{
+	width:187px;
+	height: 450px;
+	background: #fff;
+	position: relative;
+	float: left;
+}
+#bannerRight #bannerNews{
+	width:187px;
+	height: 246px;
+}
+#bannerNews #bannerNewsTitle{
+	width:187px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+}
+#bannerNewsTitle li{
+	width:90px;
+	height: 27px;
+	float: left;
+}
+#bannerNewsTitle .active{
+	background: #faf7f2;
+}
+#bannerNews #LeyouNews{
+	width:187px;
+	height: 219px;
+	overflow: hidden;
+}
+#bannerNews #rightNews{
+	display: none;
+	width:187px;
+	height: 219px;
+	position: absolute;
+	top:29px;
+	left:0px;
+}
+#rightNews #newsTop{
+	width:187px;
+	height: 160px;
+	position: relative;
+}
+#rightNews #rightNewsImg{
+	width: 83px;
+	height: 84px;
+	position: absolute;
+	top:7px;
+	left:0px;
+}
+#newsTop #newsTitle{
+	width:92px;
+	height:84px;
+	position: absolute;
+	top:7px;
+	right: 0px;
+}
+#newsTop #newsTitle:hover a{
+	text-decoration: underline;
+	color: #0099FF;
+}
+#newsTop #lunboNews{
+	width:187px; 
+	height: 100px;
+	position: absolute;
+	top:100px;
+	left: 0px;
+}
+#LeyouNews ul li{
+	width:187px;
+	height:30px;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+}
+#LeyouNews ul li img{
+	position: absolute;
+}
+#LeyouNews ul li.current{
+	width:187px;
+	height:82px;
+}
+#LeyouNews ul li:hover h4{
+	color: #a10000;
+}
+#LeyouNews ul li h4{
+	width:187px;
+	height:12px;
+	padding: 9px 10px;
+}
+#bannerNewsBottom{
+	width:180px;
+	height:205px;
+	background: #fff;
+	padding-left: 7px;
+}
+#bannerNewsBottom h4{
+	font-size: 14px;
+	font-weight: 900;
+	width:168px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 2px solid #aaaaaa;
+}
+#bannerNewsUL li{
+	line-height: 26px;
+}
+#bannerNewsUL li:hover a{
+	color: #9BBAF9;
+}
+#bannerNewsUL span{
+	display: inline-block;
+	width:11px;
+	height: 11px;
+	border-radius: 50%;
+	background: #666666;
+}
+#bannerNewsUL li a{
+	padding-left:10px ;
+}
+
+/*banner2*/
+
+#outBanner2{
+	width:100%;
+	height: 305px;
+}
+#banner2{
+	width:1210px;
+	height: 305px;
+	margin: 0 auto;
+	position: relative;
+}
+#banner2 #banner2left{
+	width:229px;
+	height:200px;
+	position: absolute;
+	top:110px;
+	left:0px;
+}
+#banner2 #warmtips{
+	width:790px;
+	height:49px;
+	position: absolute;
+	top:5px;
+	left:221px;
+}
+#warmtips span{
+	display: inline-block;
+	width:15px;
+	height: 20px;
+	background: url(../images/BaseImg/leyou_sprites.png) -185px -544px;
+	position: absolute;
+	top:14px;
+	left:0px;
+}
+#warmtips1{
+	width:282px;
+	height: 49px;
+	float: left;
+	margin-left: 14px;
+	overflow: hidden;
+	position: relative;
+}
+#warmtips1UL{
+	width:282px;
+	height: 49px;
+	position: absolute;
+	left: 0;
+	top: 0;	
+}
+ #warmtips1UL li{
+	width:282px;
+	height: 49px;
+	line-height: 49px;
+}
+#warmtips1 #warmtips1UL li a{
+	padding-left: 25px;
+}
+#warmtips #warmtips2{
+	width:282px;
+	height: 49px;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+#warmtips2 #warmtips2UL{
+	width:282px;
+	height: 49px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+#warmtips2 #warmtips2UL li{
+	width:282px;
+	height: 49px;
+	line-height: 49px;
+}
+#banner2 #banner2Goods{
+	width:790px;
+	height: 256px;
+	position: absolute;
+	top:50px;
+	left:221px;
+}
+#banner2Goods #TitleUL{
+	width:790px;
+	height: 25px;
+	background: #faf7f2;
+	border-bottom: 1px solid #efefef;
+	border-top: 2px solid #fe8600;
+}
+#banner2Goods #TitleUL li{
+	width:158px;
+	height: 25px;
+	float: left;
+	line-height: 25px;
+	text-align: center;
+}
+#banner2Goods #TitleUL li:hover a{
+	color: #fe8600;
+	font-weight: 900;
+}
+#banner2Goods #TitleUL .change{
+	background: #f3eae1;
+	font-weight: 900;
+}
+#banner2Goods #TitleUL .change a{
+	color: #fe8600;	
+}
+#banner2Goods #showImg1{
+	width:790px;
+	height: 228px;
+	position: relative;
+}
+#showImg1 #showImg1UL{
+	width:790px;
+	height: 228px;
+}
+#showImg1 #showImg1UL li{
+	width:157px;
+	height: 228px;
+	float: left;
+	padding-right: 1px;
+}
+#showImg1 #showImg1UL li .showImgTitle{
+	width:157px;
+	height: 86px;
+	border-bottom: 1px solid #f2ebe3;
+	border-top: 1px solid #f2ebe3;
+	background: #faf7f2;
+}
+.showImages{
+	width:157px;
+	height:140px;
+	text-align: center;
+}
+.showImages img{
+	cursor: pointer;
+	padding-top: 20px;
+}
+.showImgTitle span{
+	color: #cc0000;
+	font-size: 16px;
+	padding-top:10px ;
+	padding-left: 38px;
+}
+.showImgTitle  a{
+	display: inline-block;
+	text-align: left;
+	line-height: 20px;
+	padding: 10px 0 0 12px;
+}
+.showImgTitle  a:hover{
+	color: #48ACE2;
+}
+#smallBanner span{
+	display: inline-block;
+	color: #cc0000;
+	font-size:16px;
+	font-weight: 900;
+	padding: 11px 0 0 20px;
+}
+#banner2 #smallBanner{
+	width:188px;
+	height:254px;
+	border:1px solid #e2e2e2;
+	position: relative;
+	top:50px;
+	left:1020px;
+	overflow: hidden;
+}
+#smallBanner #smallList1{
+	width:188px;
+	height:254px;
+	position: absolute;
+	top:40px;
+	left:0px;
+}
+#smallList1 li{
+	width: 188px;
+	height: 187px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+} 
+#smallList1 img{
+	width: 120px;
+	height: 120px;
+}
+#smallBanner #smallList2 {
+	width: 100px;
+	height: 16px;
+	position: absolute;
+	left: 96px;
+	top: 14px;
+}
+#smallList2 li {
+	width: 15px;
+	height: 15px;
+	background: #b8bdc0;
+	margin-left: 6px;
+	float: left;
+	border-radius: 50%;
+	cursor: pointer;
+	text-align: center;
+}
+#smallList2 li.active1 {
+	background: #323638;
+}
+
+/*Haitao*/
+
+#outHaitao{
+	width:100%;
+	height:338px;
+}
+#outHaitao #haitao{
+	width:1210px;
+	height:338px;
+	margin: 0 auto;
+}
+#haitao #haitaoLeft{
+	width:890px;
+	height:338px;
+	float: left;
+}
+#haitaoLeft #HTLeftTop{
+	width:890px;
+	height:53px;
+	border-bottom: 2px solid #e4393c;
+	position: relative;
+}
+#HTLeftTop i{
+	display: inline-block;
+	width:30px;
+	height:30px;
+	background: url(../images/homePageImg/haitao.png);
+	position: absolute;
+	top:15px;
+	left:0px;
+}
+#HTLeftTop span{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 900;
+	color: #e4393c;
+	padding: 17px 0 0 38px;
+}
+#haitaoLeft #HTLeftBottom{
+	width:890px;
+	height:283px;
+	border-bottom: 1px solid #dddddd;
+	position: relative;
+}
+#HTLeftBottom img{
+	padding-top: 13px;
+}
+#HTLeftBottom #HTlist{
+	width:711px;
+	height:267px;
+	position: absolute;
+	top:13px;
+	left:180px;
+}
+#HTlist li{
+	width:168px;
+	height:255px;
+	border: 1px solid #eeeeee;
+	box-shadow:3px 3px 8px #f8f8f8 ;
+	float: left;
+	margin-right:7px;
+	position: relative;
+	cursor: pointer;
+}
+#HTlist li img:nth-of-type(1){
+	width:30px;
+	height:20px;
+	position: absolute;
+	top:0px;
+	left:12px;
+}
+#HTlist li img:nth-of-type(2){
+	width:150px;
+	height:150px;
+	margin: 10px 0 0 10px;
+}
+#HTlist li span{
+	color: #cc0000;
+	font-size: 16px;
+	padding:10px 0 0 38px;
+}
+#HTlist li a{
+	display: inline-block;
+	text-align: left;
+	line-height: 20px;
+	padding: 10px 0 0 12px;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2; 
+}
+#haitao #haitaoRight{
+	width:310px;
+	height:338px;
+	float: right;
+}
+#haitaoRight #HTRightTop{
+	width:310px;
+	height:53px;
+	border-bottom: 2px solid #aaaaaa;
+}
+#HTRightTop span{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 900;
+	color: #666666;
+	padding-top: 23px
+}
+#HTRightBottom{
+	width:310px;
+	height:283px;
+	position: relative;
+}
+#HTRightBottom img{
+	border-top:1px solid #dddddd ;
+	border-bottom:1px solid #dddddd ;
+	position: absolute;
+	bottom:0px;
+	left:0px;
+}
+
+/*Review */
+
+#outReview{
+	width:100%;
+	height:334px;
+	margin: 35px 0 39px 0;
+}
+#outReview #review{
+	width:1210px;
+	height:334px;
+	margin: 0 auto;
+}
+#review #reviewLeft{
+	width:924px;
+	height:334px;
+	border: 1px solid #f1e7dd;
+	float: left;
+}
+#reviewLeftTop{
+	width:924px;
+	height:28px;
+	background: #faf7f2;
+	border-bottom: 1px solid #f1e7dd;
+}
+#reviewLeftTop span{
+	display: inline-block;
+	font-size: 14px ;
+	font-weight: 900;
+	color: #666666;
+	padding:4px 0 0 10px;
+}
+#reviewLeftBottom{
+	width:924px;
+	height:303px;
+}
+#reviewUL{
+	width:924px;
+	height:30px;
+	border-bottom: 1px solid #efefef;
+}
+#reviewUL li{
+	display: inline-block;
+	float: left;
+	width:80px;
+	height:26px;
+	line-height: 26px;
+	text-align: center;
+}
+#reviewUL .hoverRed{
+	display: inline-block;
+	width:80px;
+	height:26px;
+	border-bottom:4px solid #cc0000;
+}
+#reviewDetails{
+	width:924px;
+	height:272px;
+	overflow: hidden;
+}
+#reviewDetails .Details{
+	width:924px;
+	height:272px;
+}
+#reviewDetails .Details ul li{
+	width:231px;
+	height:135px;
+	float: left;
+}
+#reviewDetails .Details ul li div{
+	width:231px;
+	height:135px;
+	position: relative;
+}
+#reviewDetails .Details ul li div img{
+	width:96px;
+	height:96px;
+	position: absolute;
+	top:10px;
+	left: 0px;
+}
+#reviewDetails .Details ul li div span{
+	display: inline-block;
+	width:100px;
+	height:20px;
+	position: absolute;
+	top:13px;
+	left: 100px;
+}
+#reviewDetails .Details ul li div i{
+	display: inline-block;
+	width:62px;
+	height:13px;
+	background: url(../images/homePageImg/leyou_sprite_dp.gif) 0 -385px;
+	position: absolute;
+	top:43px;
+	left: 100px;
+}
+#reviewDetails .Details ul li div a{
+	display: inline-block;
+	width:125px;
+	height:40px;
+	position: absolute;
+	top:66px;
+	left: 100px;
+}
+#reviewRight{
+	width: 272px;
+	height: 334px;
+	float: right;
+}
+#reviewRightTop{
+	width: 270px;
+	height: 216px;
+	border: 1px solid #f1e7dd;
+	position: relative;
+}
+#reviewRightTop1{
+	width: 270px;
+	height: 28px;
+	background: #faf7f2;
+	border-bottom: 1px solid #f1e7dd;
+}
+#reviewRightTop1 span{
+	display: inline-block;
+	font-size: 14px ;
+	font-weight: 900;
+	color: #666666;
+	padding:4px 0 0 10px;
+}
+#reviewRightTop2{
+	width: 260px;
+	height: 74px;
+	border-bottom: 1px dotted #cccccc;
+	position: relative;
+	margin: 0 auto;
+}
+#reviewRightTop2 img{
+	width: 79px;
+	height:57px;
+	position: absolute;
+	top:8px;
+	left:5px;
+}
+#reviewRightTop2 a{
+	width: 177px;
+	height:40px;
+	position: absolute;
+	top:8px;
+	left:89px;
+}
+#reviewRightTop3{
+	width: 126px;
+	height:105px;
+	position: absolute;
+	top:108px;
+	left:6px;
+	border-right: 1px dotted #ccc;
+}
+#reviewRightTop3 li, #reviewRightTop4 li{
+	line-height: 21px;
+}
+#reviewRightTop4{
+	width: 126px;
+	height:105px;
+	position: absolute;
+	top:108px;
+	left:141px;
+}
+#reviewRightBottom{
+	width: 270px;
+	height: 104px;
+	border: 1px solid #f1e7dd;
+	margin-top:11px ;
+}
+#reviewRightBottom1{
+	width: 270px;
+	height: 28px;
+	background: #faf7f2;
+	border-bottom: 1px solid #f1e7dd;
+}
+#reviewRightBottom1 span{
+	display: inline-block;
+	font-size: 14px ;
+	font-weight: 900;
+	color: #666666;
+	padding:4px 0 0 10px;
+}
+#reviewRightBottom2 {
+	position: relative;
+}
+#reviewRightBottom2 span{
+	display: inline-block;
+	margin: 10px 0 10px 10px;
+}
+#reviewRightBottom2 input{
+	width: 155px;
+	height: 20px;
+	border: 1px solid #ccc;
+	padding-left: 7px;
+	margin-left: 10px;
+}
+#reviewRightBottom2 i{
+	display: inline-block;
+	width:53px;
+	height:25px;
+	background: url(../images/homePageImg/Subscribe.gif);
+	position: absolute;
+	top:33px;
+	left:183px;
+}
+
+/*广告图 */
+
+#outbigAd{
+	width: 100%;
+	height:350px;
+	margin: 39px 0 20px 0;
+}
+#bigAd{
+	width: 1210px;
+	height:350px;
+	margin: 0 auto;
+}
+
+/*main*/
+
+#outmain{
+	width:100%;
+	height:2490px;
+}
+#main{
+	width:1210px;
+	height:2490px;
+	margin: 0 auto;
+}
+
+/*第一楼样式 */
+
+#out1F{
+	width:100%;
+	height:428px;
+}
+#out1F #Floor1{
+	width:1210px;
+	height:428px;
+	margin: 0 auto;
+}
+#F1Left{
+	width:209px;
+	height:428px;
+	float: left;
+}
+#F1Left #F1LeftTop{
+	width:209px;
+	height:65px;
+	border-bottom: 1px solid #aaaaaa;
+	position: relative;
+}
+#F1LeftTop span{
+	display: inline-block;
+	width:27px;
+	height:35px;
+	background: url(../images/homePageImg/loubiao.png) -40px -1px;
+	margin-top: 18px;
+}
+#F1LeftTop i{
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 900;
+	color: #e25a80;
+	position: absolute;
+	bottom: 18px;
+	left:30px;
+}
+#F1LeftBottom{
+	width:209px;
+	height:361px;
+	border-bottom:1px solid #aaaaaa ;
+	border-right:1px solid #aaaaaa ;
+	position: relative;	
+	background: url(../images/homePageImg/f1Left.jpg);
+}
+#F1LeftBottom ul{
+	position: absolute;
+	top:0px;
+	left: 0px;
+}
+#F1LeftBottom li{
+	line-height: 26px;
+}
+#F1LeftBottom li:hover a{
+	color: #0099FF;
+}
+#F1Middle{
+	width:790px;
+	height:428px;
+	float: left;
+}
+#F1MiddleTop{
+	width:790px;
+	height:65px;
+	border-bottom: 1px solid #aaaaaa;
+}
+#F1MiddleTopUL{
+	width:790px;
+	height:65px;
+}
+#F1MiddleTopUL li{
+	float: left;
+	font-size: 14px;
+	font-weight: 900;
+	width:158px;
+	height:62px;
+	text-align: center;
+}
+#F1MiddleTopUL li a{
+	display: inline-block;
+	margin-top: 37px;
+}
+#F1MiddleTopUL .hoverOrange{
+	border-bottom: 3px solid #e4393c;
+}
+#F1MiddleBottom{
+	width:790px;
+	height:361px;
+}
+#F1MiddleBottomUL{
+	width:790px;
+	height:361px;
+}
+#F1MiddleBottomUL > li{
+	width:790px;
+	height:361px;
+}
+#F1MiddleBottomUL li div ul li{
+	width:157px;
+	height:180px;
+	float: left;
+	border-bottom: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+	position: relative;
+}
+#F1MiddleBottomUL li div ul li:nth-child(1){
+	width:474px;
+	height:180px;
+	border-right:none;
+}
+#F1MiddleBottomUL .F1Img{
+	position: absolute;
+	top:17px;
+	left:23px;
+}
+#F1MiddleBottomUL .F1Img:hover{
+	opacity: 0.5;
+}
+#F1MiddleBottomUL .F1P{
+	position: absolute;
+	top:133px;
+	left:15px;
+}
+#F1MiddleBottomUL .F1P:hover{
+	color: #0099FF;
+}
+#F1MiddleBottomUL .F1Span{
+	color: #e4393c;
+	position: absolute;
+	top:153px;
+	left:15px;
+}
+#F1Right{
+	width:209px;
+	height:361px;
+	float:left;
+}
+#F1RightBottom{
+	width:209px;
+	height:428px;
+}
+#F1RightTop{
+	width:209px;
+	height:65px;
+	border-bottom: 1px solid #aaaaaa;
+}
+#F1RightTop span{
+	display: inline-block;
+	color: #666666;
+	padding-top:40px;
+}
+#F1RightBottom ul{
+	width:209px;
+	height:171px;
+	margin-top: 9px;
+	border-bottom: 1px solid #dddddd;
+}
+#F1RightBottom ul li{
+	width:209px;
+	height:44px;
+	border-top:1px dotted #f1f1f1 ;
+}
+#F1RightBottom ul li img{
+	width:68px;
+	height:26px;
+	padding-left: 18px;
+}
+#F1RightBigAd{
+	width:209px;
+	height:180px;
+}
+
+/*第二楼样式 */
+
+#F2LeftBottom{
+	width:209px;
+	height:361px;
+	border-bottom:1px solid #aaaaaa ;
+	border-right:1px solid #aaaaaa ;
+	position: relative;	
+	background: url(../images/homePageImg/f2Left.jpg) no-repeat bottom;
+}
+#F2LeftBottom ul li{
+	line-height: 26px;
+}
+#F2LeftBottomUL1{
+	float: left;
+}
+#F2LeftBottomUL2{
+	float: right;
+}
+#F1LeftTop #floorNO2{
+	display: inline-block;
+	width:27px;
+	height:35px;
+	background: url(../images/homePageImg/loubiao.png) -40px -40px;
+	margin-top: 18px;
+}
+
+/*第三楼样式 */
+
+#F3LeftBottom{
+	width:209px;
+	height:361px;
+	border-bottom:1px solid #aaaaaa ;
+	border-right:1px solid #aaaaaa ;
+	position: relative;	
+	background: url(../images/homePageImg/f3Left.jpg);
+}
+#F3LeftBottom ul li{
+	line-height: 26px;
+}
+#F1LeftTop #floorNO3{
+	display: inline-block;
+	width:27px;
+	height:35px;
+	background: url(../images/homePageImg/loubiao.png) -40px -80px;
+	margin-top: 18px;
+}
+
+/*第四楼样式 */
+
+#F4LeftBottom{
+	width:209px;
+	height:361px;
+	border-bottom:1px solid #aaaaaa ;
+	border-right:1px solid #aaaaaa ;
+	position: relative;	
+	background: url(../images/homePageImg/f4Left.jpg) no-repeat bottom;
+}
+#F4LeftBottom ul li{
+	line-height: 26px;
+}
+#F4LeftBottomUL1{
+	float: left;
+}
+#F4LeftBottomUL2{
+	float: right;
+}
+#F1LeftTop #floorNO4{
+	display: inline-block;
+	width:27px;
+	height:35px;
+	background: url(../images/homePageImg/loubiao.png) -40px -121px;
+	margin-top: 18px;
+}
+
+/*第五楼样式 */
+
+#F5LeftBottom{
+	width:209px;
+	height:361px;
+	border-bottom:1px solid #aaaaaa ;
+	border-right:1px solid #aaaaaa ;
+	position: relative;	
+	background: url(../images/homePageImg/f5Left.jpg) no-repeat bottom;
+}
+#F5LeftBottom ul li{
+	line-height: 26px;
+}
+#F5LeftBottomUL1{
+	float: left;
+}
+#F5LeftBottomUL2{
+	float: right;
+}
+#F1LeftTop #floorNO5{
+	display: inline-block;
+	width:27px;
+	height:35px;
+	background: url(../images/homePageImg/loubiao.png) -40px -160px;
+	margin-top: 18px;
+}
+
+/*第六楼样式 */
+
+#F6LeftBottom{
+	width:209px;
+	height:361px;
+	border-bottom:1px solid #aaaaaa ;
+	border-right:1px solid #aaaaaa ;
+	position: relative;	
+	background: url(../images/homePageImg/f6Left.jpg) no-repeat bottom;
+}
+#F6LeftBottom ul li{
+	line-height: 26px;
+}
+#F6LeftBottomUL1{
+	float: left;
+}
+#F6LeftBottomUL2{
+	float: right;
+}
+#F1LeftTop #floorNO6{
+	display: inline-block;
+	width:27px;
+	height:35px;
+	background: url(../images/homePageImg/loubiao.png) -40px -199px;
+	margin-top: 18px;
+}
+
+/*FooterNav */
+
+#outFooterNav{
+	width:100%;
+	height:289px;
+}
+#FooterNav{
+	width:1210px;
+	height:289px;
+	margin: 0 auto;
+	background: #faf7f2;
+}
+#FooterNavLeft{
+	width:930px;
+	height:289px;
+	float: left;
+}
+#FooterNavLeft1{
+	width:930px;
+	height:215px;
+	position: relative;
+}
+#FooterNavLeftUL1,#FooterNavLeftUL2,#FooterNavLeftUL3,#FooterNavLeftUL4,#FooterNavLeftUL5{
+	width:166px;
+	height:215px;	
+}
+#FooterNavLeftUL1 ul,#FooterNavLeftUL2 ul,#FooterNavLeftUL3 ul,#FooterNavLeftUL4 ul,#FooterNavLeftUL5 ul{
+	list-style: disc;
+}
+#FooterNavLeftUL1 ul li,#FooterNavLeftUL2 ul li,#FooterNavLeftUL3 ul li,#FooterNavLeftUL4 ul li,#FooterNavLeftUL5 ul li{
+	line-height: 20px;
+}
+#FooterNavLeftUL1 ul li:hover a,#FooterNavLeftUL2 ul li:hover a,#FooterNavLeftUL3 ul li:hover a,#FooterNavLeftUL4 ul li:hover a,#FooterNavLeftUL5 ul li:hover a{
+	color: #0099FF;
+}
+#FooterNavLeftUL1{
+	position: absolute;
+	top:25px;
+	left:132px;
+}
+#FooterNavLeftUL2{
+	position: absolute;
+	top:25px;
+	left:298px;
+}
+#FooterNavLeftUL3{
+	position: absolute;
+	top:25px;
+	left:463px;
+}
+#FooterNavLeftUL4{
+	position: absolute;
+	top:25px;
+	left:630px;
+}
+#FooterNavLeftUL5{
+	position: absolute;
+	top:25px;
+	left:796px;
+}
+#FooterNavLeftBg1,#FooterNavLeftBg2,#FooterNavLeftBg3,#FooterNavLeftBg4,#FooterNavLeftBg5,#FooterNavLeftBg6{
+	width: 1px;
+	height: 157px;
+	background: url(../images/homePageImg/footnav-bg.jpg);
+}
+#FooterNavLeftBg1{
+	position: absolute;
+	top:33px;
+	left:99px;
+}
+#FooterNavLeftBg2{
+	position: absolute;
+	top:33px;
+	left:265px;
+}
+#FooterNavLeftBg3{
+	position: absolute;
+	top:33px;
+	left:431px;
+}
+#FooterNavLeftBg4{
+	position: absolute;
+	top:33px;
+	left:597px;
+}
+#FooterNavLeftBg5{
+	position: absolute;
+	top:33px;
+	left:763px;
+}
+#FooterNavLeftBg6{
+	position: absolute;
+	top:33px;
+	left:929px;
+}
+.current1{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 900;
+}
+#FooterNavLeft2{
+	width:930px;
+	height:74px;
+}
+#FooterNavLeft2 img{
+	padding-left: 278px;
+}
+#FooterNavRight{
+	width:280px;
+	height:289px;
+	float: right;
+}
+#FooterNavRight img:nth-child(1){
+	padding: 30px 0 0 13px;
+}
+#FooterNavRight img:nth-child(2){
+	padding: 20px 0 0 13px;
+}
+
+/*footer */
+
+#outfooter{
+	width:100%;
+	height:179px;
+}
+#footer{
+	width:1210px;
+	height:179px;
+	text-align: center;
+	margin: 0 auto;
+}
+#footer p{
+	line-height: 68px;
+}
+#footerImg{
+	width:1210px;
+	height:43px;
+	position: relative;
+}
+#footerImg1 img,#footerImg2 img,#footerImg3 img,#footerImg4 img{
+	width:40px;
+	height: 40px;
+}
+#footerImg1,#footerImg2,#footerImg3,#footerImg4{
+	width:163px;
+	height:43px;
+	border-left: 1px solid #cccccc;
+	position: absolute;
+}
+#footerImg1{
+	top:0px;
+	left:285px;
+}
+#footerImg2{
+	top:0px;
+	left:448px;
+}
+#footerImg3{
+	top:0px;
+	left:613px;
+}
+#footerImg4{
+	top:0px;
+	left:777px;
+}
+#footerImg1Rt,#footerImg2Rt,#footerImg3Rt,#footerImg4Rt{
+	display: inline-block;
+	width:113px;
+	height:43px;
+	text-align: left;
+}
