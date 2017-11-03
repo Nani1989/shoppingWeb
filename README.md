@@ -1,4 +1,6 @@
 #shoppingWeb
+
+
 1.项目主体用JQuery进行构建
 2.其中大小两个banner从JSON获取数据，动态展示
 3.海淘专区商品从JSON获取数据，动态展示，并能点击进入详情
